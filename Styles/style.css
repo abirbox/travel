@@ -1,0 +1,543 @@
+/* ========= Google Fonts ========= */
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+ 
+/* ========= Common Area ========= */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+.header-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.btn-primary{
+    padding: 12px 30px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: 1px solid #FFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.btn-primary:hover{
+    padding: 12px 30px;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #FF5400;
+    border: 1px solid #FF5400;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+/* ========= Header Area ========= */
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+  }
+nav ul{
+    display: flex;
+    list-style: none;
+  }
+
+  nav ul li{
+    list-style: none;
+    margin-right: 40px;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  nav ul li:hover a{
+    color: #FF5400;
+    font-weight: 700;
+  }
+ 
+.banner-text h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+.banner-text p{
+    max-width: 650px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 auto;
+    line-height: 2rem;
+    text-align: center;
+  }
+.banner{
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding: 150px 0px;
+   border-radius: 16px;
+   background-image:
+   linear-gradient(180deg, rgba(19, 19, 24, 0.822) 0%, rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+   
+}
+
+.travel-form{
+    background-color: #ffffff5d;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.travel-div{
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+.travel-div input[type="text"]{
+    background: rgb(255, 255, 255);
+    padding: 18px 30px;
+    width: 30%;
+}
+.travel-div select{
+    outline:0;
+   box-shadow:none;
+   border:0!important;
+   background: #ffffff;
+   background-image: none;
+   flex: 1;
+   padding: 0 .5em;
+   color:#303030;
+   cursor:pointer;
+   font-size: 1em;
+}
+.select {
+    position: relative;
+    display: flex;
+    width: 25%;
+    height: 3em;
+    line-height: 3;
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: .25em;
+ }
+ .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #ffffff;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+ .select:hover::after {
+    color: #1d1d1d;
+ }
+ .btn-submit {
+    border: none;
+    background: #FF5400;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 48px;
+    text-wrap: nowrap;
+    border-radius: 8px;
+}
+/* ========= Popular Tour Area ========= */
+.popular-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.popular-text-area h2{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.popular-text-area > p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.popular-text-area ul li p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.popular-text-area h5{
+    color: #5A5A5D;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+/* ========= Destination Area ========= */
+.box-item-1{
+    display: flex;
+    gap: 25px;
+}
+.box-item-2{
+    display: flex;
+    gap: 25px;
+    margin: 25px 0;
+}
+.box-item-3{
+    display: flex;
+    gap: 25px;
+}
+
+.grid-img-one{
+    position: relative;
+}
+.grid-img-one h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+/* ========= Why Us Area Area ========= */
+.box-item{
+    display: flex;
+    gap: 40px;
+}
+.box h4{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 15px 0;
+}
+.box p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+.box{
+    padding: 32px;
+}
+.box-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.box-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.box-3{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-top: 25px;
+}
+/* ========= Deals & Discounts Area ========= */
+.iteam-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.iteam-box img{
+    width: 100%;
+}
+.deal-content{
+    padding: 50px 80px;
+    width: 400px;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.deal-content ul li{
+    list-style: none;
+    display: inline-block;
+}
+.deal-content h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.deal-content p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+.deal-content h4{
+    color: #FF5400;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.deal-box-1{
+    position: relative;
+}
+.deal-one{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
+.deal-box-2{
+    position: relative;
+}
+.deal-two{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+.deal-box-3{
+    position: relative;
+}
+.deal-three{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
+
+/* ========= Watch Bangladesh Area ========= */
+.watch-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.watch-text-area h2{
+    color: #131318;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    font-weight: 800;
+}
+.watch-text-area > p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    padding: 25px 0;
+}
+.watch-text-area ul{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.watch-text-area ul li p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+
+
+
+
+/* ========= Contact Area ========= */
+.contact-flex{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 25px;
+    width: 100%;
+}
+.contact-right{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px;
+    overflow: hidden;
+    width: 50%;
+}
+.contact-right h4{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.contact-right p{
+    color: #5A5A5D;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+form input{
+    width: 70%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 0;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px;
+}
+.subscribe{
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 0;
+}
+.contact-left{
+    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+}
+.contact-box{
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    transform: rotate(349deg);
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+.contact-box p{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.contact-box h3{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+/* ========= Footer Area ========= */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 60px 0;
+}
+.footer-description{
+    text-align: center;
+}
+.footer-description p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.footer-area ul li{
+    list-style: none;
+}
+.footer-area ul li a{
+    text-decoration: none;
+}
+hr{
+    width: 872px;
+    height: 1px;
+    margin: 30px auto;
+    background: rgba(19, 19, 24, 0.10);
+}
+.footer-area h5{
+    color: #131318;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+}
+.footer-area{
+    margin-bottom: 0px !important;
+}
+.icon-footer{
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+
+}
+.footer-area ul li {
+    padding-right: 25px;
+}
+
+
+
+/* Logo Menu Part  */
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Responsive Area */
+/* mobile responsive */
+@media screen and (max-width:576px) {
+
+    .container{
+        max-width: 576px;
+    }
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .banner-find{
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .popular-area{
+        flex-direction: column;
+    }
+    .box-item-1{
+        flex-direction: column;
+    }
+       
+    .box-item-2{
+        flex-direction: column;
+    }
+
+    .box-item-3{
+        flex-direction: column;
+    }
+    .box-item{
+        flex-direction: column;
+    }
+    .watch-area{
+        flex-direction: column;
+    }
+    .contact-flex{
+        flex-direction: column;
+    }
+}
+
+
+ 
